@@ -8,8 +8,20 @@ export default Route.extend({
         last: 'Rowling'
       },
       {
+        first: 'Goerge R.R.',
+        last: 'Martin'
+      },
+      {
         first: 'Tom',
         last: 'Clancy'
+      },
+      {
+        first: 'Stephen',
+        last: 'King'
+      },
+      {
+        first: 'Tsukasa',
+        last: 'Fushimi'
       }
     ];
   }
