@@ -5,23 +5,28 @@ export default Route.extend({
     return [
       {
         first: 'J.K.',
-        last: 'Rowling'
+        last: 'Rowling',
+        id: 1
       },
       {
         first: 'Goerge R.R.',
-        last: 'Martin'
+        last: 'Martin',
+        id: 2
       },
       {
         first: 'Tom',
-        last: 'Clancy'
+        last: 'Clancy',
+        id: 3
       },
       {
         first: 'Stephen',
-        last: 'King'
+        last: 'King',
+        id: 4
       },
       {
         first: 'Tsukasa',
-        last: 'Fushimi'
+        last: 'Fushimi',
+        id: 5
       }
     ];
   }
