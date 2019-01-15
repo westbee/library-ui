@@ -10,7 +10,7 @@
         <h3>{{model.title}}</h3>
 
         <div class="actions">
-          <a class="button-pop">edit</a>
+          {{#link-to "book.edit" model.id class="btn-pop"}}edit{{/link-to}}
           <button class="btn-recessed" type="button" onclick={{action "destroy"}}>delete</button>
         </div>
       </div>
